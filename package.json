@@ -1,5 +1,11 @@
 {
+  "scripts": {
+    "postinstall": "patch-package"
+  },
   "dependencies": {
     "date-fns": "^4.1.0"
+  },
+  "devDependencies": {
+    "patch-package": "^8.0.0"
   }
 }
